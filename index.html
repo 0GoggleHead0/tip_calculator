@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 class="title">
+      spli <br />
+      tter
+    </h2>
+    <div class="box">
+      <div class="box-container">
+        <div class="inputs-sec">
+          <div class="bill-sec">
+            <label for="bill">Bill</label>
+            <div class="bill-int">
+              <input type="text" placeholder="0" id="bill" />
+              <img src="./images/icon-dollar.svg" alt="person" />
+            </div>
+          </div>
+          <div class="tip-sec">
+            <label for="tip">Select Tip %</label>
+            <div class="tip-btns">
+              <div>
+                <button>5%</button>
+                <button>10%</button>
+                <button>15%</button>
+              </div>
+              <div>
+                <button>25%</button>
+                <button>50%</button>
+                <input type="number" placeholder="Custom" id="cust"/>
+              </div>
+            </div>
+          </div>
+          <div class="peop-sec">
+            <label for="people">Number of People</label>
+            <div class="people-int">
+              <input type="text" placeholder="0" id="peop" />
+              <img src="./images/icon-person.svg" alt="person" />
+            </div>
+          </div>
+        </div>
+        <div class="out-sect">
+          <div class="tip-amount">
+            <p>Tip Amount<br /><span>/ person</span></p>
+            <h2 id="tipAmnt">$0.00</h2>
+          </div>
+          <div class="total">
+            <p>Total<br /><span>/ person</span></p>
+            <h2 id="total">$0.00</h2>
+          </div>
+          <button class="reset-btn" id="resetBtn">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <footer> 
+    Coded 
+    by: 
+    <a href="https://www.facebook.com/EverythingisTakenFvck/" class="underline">Remulla, Vincent</a>.
+  </footer>
+</html>
